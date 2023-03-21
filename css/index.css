@@ -1,0 +1,19 @@
+* {
+    text-decoration: none;
+}
+
+:root {
+    --bg-color: #000;
+    --fg-color: #fff;
+    --accent: #ce3635;
+}
+
+body {
+    background-color: var(--bg-color);
+    text-align: center;
+    color: var(--fg-color);
+    padding-top:10em;
+}
+.typewrite{
+    text-decoration: none;
+}
