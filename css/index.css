@@ -1,5 +1,6 @@
 * {
     text-decoration: none;
+    font-family: 'Lato', sans-serif;
 }
 
 :root {
@@ -14,6 +15,28 @@ body {
     color: var(--fg-color);
     padding-top:10em;
 }
-.typewrite{
-    text-decoration: none;
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    margin-bottom: 2em;
+}
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+.main__container {
+    display: grid;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+#main__title{
+    font-size: 3em;
+    margin-bottom: 0.5em;
 }
