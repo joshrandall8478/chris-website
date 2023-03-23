@@ -4,7 +4,7 @@
 }
 
 :root {
-    --bg-color: #000;
+    --bg-color: #1e1e1e;
     --fg-color: #fff;
     --accent: #ce3635;
 }
@@ -13,21 +13,33 @@ body {
     background-color: var(--bg-color);
     text-align: center;
     color: var(--fg-color);
-    padding-top:10em;
+    padding-top: 10em;
 }
 
-.nav__container{
+.nav__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 2em;
     margin-bottom: 2em;
 }
-.nav__links {
+
+.nav__links ul{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 20%;
+    justify-content: space-around;
+    list-style-type:none;
+}
+.nav__links li{
+    padding: 0 1em;
+}
+
+#nav__logo {
+    fill: none;
+    stroke: var(--accent);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 80.89px;
+    height: 70px;
 }
 
 .main__container {
@@ -36,7 +48,7 @@ body {
     height: 90vh;
 }
 
-#main__title{
+#main__title {
     font-size: 3em;
     margin-bottom: 0.5em;
 }
