@@ -1,6 +1,7 @@
 * {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
+    overflow: none;
 }
 
 :root {
@@ -16,12 +17,21 @@ body {
     padding-top: 10em;
 }
 
+.nav {
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+}
+
 .nav__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2em;
-    margin-bottom: 2em;
+    background-color: black;
+
 }
 
 .nav__links ul{
